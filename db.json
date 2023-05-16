@@ -1,11 +1,44 @@
 {
   "products": [
     {
-      "title": "new",
+      "title": "PALTO",
       "description": "descr",
       "price": "2222",
-      "image": "img",
+      "image": "image",
+      "category": "coat",
       "id": 1
+    },
+    {
+      "title": "SVITSHOT",
+      "description": "descr",
+      "price": "5555",
+      "image": "image",
+      "category": "sweatshirt",
+      "id": 2
+    },
+    {
+      "title": "KARDIGAN 1",
+      "description": "descr",
+      "price": "22223",
+      "image": "image",
+      "category": "cardigan",
+      "id": 3
+    },
+    {
+      "title": "KARDIGAN 2",
+      "description": "descr",
+      "price": "777",
+      "image": "image",
+      "category": "cardigan",
+      "id": 4
+    },
+    {
+      "title": "HOODIE",
+      "description": "descr",
+      "price": "11111",
+      "image": "image",
+      "category": "hoodie",
+      "id": 5
     }
   ]
 }

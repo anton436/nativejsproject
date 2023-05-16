@@ -5,6 +5,7 @@ let inpTitle = document.querySelector(".input-title");
 let inpDescr = document.querySelector(".input-descr");
 let inpPrice = document.querySelector(".input-price");
 let inpImage = document.querySelector(".input-image");
+let selectCategory = document.querySelector(".category");
 
 let btnAdd = document.querySelector(".btn-add");
 
@@ -13,7 +14,8 @@ btnAdd.addEventListener("click", () => {
     !inpTitle.value.trim() ||
     !inpDescr.value.trim() ||
     !inpPrice.value.trim() ||
-    !inpImage.value.trim()
+    !inpImage.value.trim() ||
+    !selectCategory.value.trim()
   ) {
     alert("заполните инпуты");
     return;
@@ -24,6 +26,7 @@ btnAdd.addEventListener("click", () => {
     description: inpDescr.value,
     price: inpPrice.value,
     image: inpImage.value,
+    category: selectCategory.value,
   };
   createProduct(newProduct);
 });
