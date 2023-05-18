@@ -123,7 +123,7 @@ function drawPaginationButtons() {
       pageTotalCount = Math.ceil(data.length / 3);
       paginationList.innerHTML = "";
       for (let i = 1; i <= pageTotalCount; i++) {
-        if (currentPage === i) {
+        if (currentPage == i) {
           let page = document.createElement("li");
           page.innerHTML = `<li class="page-item active"><a class="page-link page-number" href="#">${i}</a></li>`;
           paginationList.append(page);
