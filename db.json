@@ -1,3 +1,44 @@
 {
-  "products": []
+  "products": [
+    {
+      "title": "Черное пальто",
+      "description": "фиысояч",
+      "price": "1229",
+      "image": "тоысвв",
+      "category": "coat",
+      "id": 1
+    },
+    {
+      "title": "Белый свитшот",
+      "description": "выа",
+      "price": "1200",
+      "image": "undefined",
+      "category": "sweatshirt",
+      "id": 9
+    },
+    {
+      "title": "Черный кардиган",
+      "description": "выайцу",
+      "price": "4000",
+      "image": "undefined",
+      "category": "cardigan",
+      "id": 10
+    },
+    {
+      "title": "черный свитшот",
+      "description": "йцук",
+      "price": "1200",
+      "image": "undefined",
+      "category": "sweatshirt",
+      "id": 11
+    },
+    {
+      "title": "cardigan",
+      "description": "b mxnc",
+      "price": "1222",
+      "image": "saxcx",
+      "category": "cardigan",
+      "id": 15
+    }
+  ]
 }
