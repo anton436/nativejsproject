@@ -1,44 +1,44 @@
 {
   "products": [
     {
-      "title": "PALTO",
-      "description": "descr",
-      "price": "2222",
-      "image": "image",
+      "title": "Черное пальто",
+      "description": "фиысояч",
+      "price": "1229",
+      "image": "тоысвв",
       "category": "coat",
       "id": 1
     },
     {
-      "title": "SVITSHOT",
-      "description": "descr",
-      "price": "5555",
-      "image": "image",
+      "title": "Белый свитшот",
+      "description": "выа",
+      "price": "1200",
+      "image": "undefined",
       "category": "sweatshirt",
-      "id": 2
+      "id": 9
     },
     {
-      "title": "snova KARDIGAN ",
-      "description": "descr",
-      "price": "5555",
-      "image": "image",
+      "title": "Черный кардиган",
+      "description": "выайцу",
+      "price": "4000",
+      "image": "undefined",
       "category": "cardigan",
-      "id": 3
+      "id": 10
     },
     {
-      "title": "KARDIGAN 2",
-      "description": "descr",
-      "price": "777",
-      "image": "image",
+      "title": "черный свитшот",
+      "description": "йцук",
+      "price": "1200",
+      "image": "undefined",
+      "category": "sweatshirt",
+      "id": 11
+    },
+    {
+      "title": "cardigan",
+      "description": "b mxnc",
+      "price": "1222",
+      "image": "saxcx",
       "category": "cardigan",
-      "id": 4
-    },
-    {
-      "title": "HOODIE",
-      "description": "descr",
-      "price": "11111",
-      "image": "image",
-      "category": "hoodie",
-      "id": 5
+      "id": 15
     }
   ]
 }

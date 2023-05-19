@@ -1,0 +1,279 @@
+* {
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  /* NAVBAR START */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  
+  .navbar_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .navbar_logo > h1 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+  
+  .navbar_list {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+  }
+  .navbar_contact {
+    display: flex;
+    width: 20%;
+  }
+  .navbar_contact > a {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  .basket {
+    margin-left: 10%;
+  }
+  
+  .navbar_list_item {
+    margin: 0 15px;
+  }
+  .navbar_list_item > a {
+    color: black;
+    font-weight: 400;
+  }
+  
+  .navbar_list_item > a:hover {
+    color: #6e9c9f;
+    font-weight: 500;
+  }
+  
+  .navbar_contact {
+    display: flex;
+    align-items: center;
+  }
+  .navbar_contact > img {
+    width: 27px;
+    height: 27px;
+    margin: 0 5px;
+  }
+  /* NAVBAR END */
+  
+  /* PAGE INFO START */
+  .page_title {
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  
+  .page_path {
+    font-size: 17px;
+  }
+  /* PAGE INFO END */
+  
+  /* AIDINA's part Start */
+  .section1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+  }
+  
+  .section1__left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .section1__right {
+    width: 50%;
+    margin-top: 10%;
+  }
+  
+  .section1__right_title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+  .section1__right_description1 {
+    margin-top: 10%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+  .section1__right_description2{
+    margin-top: 5%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+  
+  /* AIDINA's Part End */
+  
+  /* ASLAN's Part Start */
+  .section2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    margin-bottom: 130px;
+  }
+  
+  .section2_left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .section2__right  {
+    width: 50%;
+    margin-top: 10%;
+  }
+  
+  .section1__right_title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+  .section2__right_description1 {
+    margin-top: 10%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+  .section2__right_description2 {
+    margin-top: 5%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+
+  
+  /*  Button Start */
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn_text {
+    text-align: center;
+    width: 260px;
+    height: 68px;
+    background: #6e9c9f;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 130px;
+    border: none;
+  }
+  /* Button End */
+
+/* ASLAN's Part End */
+
+
+  /* FOOTER START */
+  footer {
+    background-color: #f1eadc;
+    height: 363px;
+    margin-top: 5%;
+    
+  }
+  
+  .footer_container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .footer_container_left {
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer_logo > h1 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+  
+  .footer_list {
+    display: flex;
+    align-items: center;
+    width: 34%;
+    justify-content: space-between;
+    margin-right: 9.5%;
+  }
+  
+  .footer_list_item > a,
+  .footer_list_contact {
+    color: black;
+    font-size: 15px;
+  }
+  
+  .footer_list_item > a:hover {
+    color: #6e9c9f;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .footer_contact {
+    margin-top: 1%;
+  }
+  .footer_list_contact {
+    display: block;
+    margin-top: 3%;
+  }
+  .footer_end {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_end_item > a {
+    color: #000;
+    font-size: 15px;
+  }
+  
+  .footer_end_list {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+  }
+  #second_list {
+    margin-right: 29%;
+    gap: 10px;
+  }
+  #first_list {
+    gap: 6px;
+    margin-top: 2%;
+  }
+  
+  #third_list {
+    gap: 12px;
+  }
+  /* FOOTER END */
+  
